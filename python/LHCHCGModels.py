@@ -1058,6 +1058,8 @@ L2 = LambdasReduced()
 L2flipped = LambdasReduced(flipped=True)
 D1 = CommonMatrixModel()
 
+from HiggsAnalysis.CombinedLimit.SingleTopModels import *
+
 K4 = KappaVKappaT(resolved=True)
 K5 = KappaVKappaT(resolved=False)
 K6 = KappaVKappaT(resolved=False, coupleTopTau=True)
